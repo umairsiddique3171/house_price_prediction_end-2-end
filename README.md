@@ -18,19 +18,24 @@ This project is structured into three key phases, each playing a vital role in d
 ## AI Algorithm Training
 
 - **Dataset Collection:**
-The dataset used in this project is the Boston House Price dataset, which is included in the `sklearn.datasets` module.
+  
+  The dataset used in this project is the Boston House Price dataset, which is included in the `sklearn.datasets` module.
 
 - **Exploratory Data Analysis (EDA):**
-Exploratory Data Analysis was performed to understand the structure and characteristics of the dataset. This included checking for missing values, data distribution, correlation analysis, checking constant features, checking highly collinear features, checking features with low collinearity with output etc.
+  
+  Exploratory Data Analysis was performed to understand the structure and characteristics of the dataset. This included checking for missing values, data distribution, correlation analysis, checking constant features, checking highly collinear features, checking features with low collinearity with output etc.
 
-- **Data Preprocessing:** 
-Data preprocessing involved handling missing values, feature scaling, and splitting the data into training and testing sets.
+- **Data Preprocessing:**
+  
+  Data preprocessing involved handling missing values, feature scaling, and splitting the data into training and testing sets.
 
 - **Model Training:**
-Linear Regression, Lasso Regression, and Ridge Regression models were trained using the preprocessed data.
+  
+  Linear Regression, Lasso Regression, and Ridge Regression models were trained using the preprocessed data.
 
 - **Model Evaluation:**
-Trained models were judge using following assumptions: 
+
+  Trained models were judge using following assumptions: 
     - The scatter plot comparing the true values (y-true) with the predicted values (y-predict) should exhibit a linear relationship.
     - The residuals should follow a normal distribution with a mean approximately equal to zero.
     - There should be uniform distributions observed between the scatter plot of predictions and residuals.
@@ -48,7 +53,7 @@ Trained models were judge using following assumptions:
 ## Creation of Web App
 - The project progresses to the creation of an interactive web application using Streamlit. This user-friendly interface prompts users to input relevant features, facilitating instant predictions of house prices based on the trained model.
 
-- User has to input following field for house price prediction: 
+- User has to input following fields for house price prediction: 
     - **CRIM**     per capita crime rate by town
     - **ZN**      proportion of residential land zoned for lots over 25,000 sq.ft.
     - **INDUS**    proportion of non-retail business acres per town
@@ -109,7 +114,7 @@ Trained models were judge using following assumptions:
 
 - **Dockerfile Setup:**
 
-    Setup "Dockerfile" as mentioned [here]().
+    Setup "Dockerfile" as mentioned [here](https://github.com/umairsiddique3171/house_price_prediction_end-2-end/blob/main/app/Dockerfile).
 
 - **Build Docker Image:**
 
