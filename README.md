@@ -42,7 +42,7 @@ Trained models were judge using following assumptions:
     - Root Mean Squared Error (RMSE) 
     - R Squared 
     
-    You can access AI Algorithm Training source code from [here]().
+    You can access AI Algorithm Training source code from [here](https://github.com/umairsiddique3171/house_price_prediction_end-2-end/tree/main/regressor).
 
 
 ## Creation of Web App
@@ -63,7 +63,7 @@ Trained models were judge using following assumptions:
     - **B**        1000(Bk - 0.63)^2 where Bk is the proportion of black people by town
     - **LSTAT**    % lower status of the population
 
-    You can access App source code from [here]().
+    You can access App source code from [here](https://github.com/umairsiddique3171/house_price_prediction_end-2-end/tree/main/app).
 
 - **App Test on Local Host:**
     1. Clone the repository:
@@ -169,7 +169,7 @@ Trained models were judge using following assumptions:
         This command will push the tagged image to your Docker Hub repository. Make sure you have appropriate permissions to push to the repository.
 
 ## License
-This project is licensed under the [MIT License]().
+This project is licensed under the [MIT License](https://github.com/umairsiddique3171/house_price_prediction_end-2-end/blob/main/LICENSE).
 
 ## Author 
 [@umairsiddique3171](https://github.com/umairsiddique3171)
